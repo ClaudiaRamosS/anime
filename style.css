@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & display=swap');
+header{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(227, 180, 123);
+    margin:10px 10px 10px 10px;
+}
+
+header ul{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+
+a:link{
+    align-items: center;
+    text-decoration: none;
+}
+
+header ul li{
+   
+    margin: 10px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size:xx-large;
+    align-items: center;
+}
+
+header img{ 
+    width: 100%;
+    height: 155px;
+    margin: 10px;
+}
+.cajita{
+    padding: 10px;
+}
+.cajita img {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+}
+h1{
+    font-size: 36;
+    color: rgb(92, 28, 28);
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+p{
+    font-size: 24;
+    color: rgb(25, 25, 36);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+}
+
+
+.inicio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inicio h1{
+    font-size: 50px;
+    color: black;
+    align-items: center;
+}
+.inicio p {
+    width: 70%;
+    font-size: 28px;
+    padding: 10px;
+    color: rgb(107, 60, 151);
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe {
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:10px 0 10px 0;
+    background-color: rgb(143, 143, 222);
+}
+.cajita{
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cajita img{
+    border-radius:50% ;
+}
+.cajita {
+    font-size: 24px;
+}
+
+.carrusel-images {
+    width: 100%;
+    height: 600px;
+}
